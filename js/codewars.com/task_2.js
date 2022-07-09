@@ -44,4 +44,4 @@ function isIsogramTow(str) {
         array.indexOf(item) === index).length === str.length;
 }
 
-console.log(isIsogram("Dermatoglyphics"));
+console.log(isIsogramTow("Dermatoglyphics"));
