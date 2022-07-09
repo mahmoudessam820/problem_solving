@@ -53,11 +53,15 @@
     To get past this, find some clever workaround to still check for "()" 
     without using the literal string.
 
+    Task URL: https://pythonprinciples.com/challenges/Solution-validation/
+
 """
 
-# solution
+#! My Solution
+
 
 def validate(code):
+
     if "def" not in code:
         return "missing def"
     if ":" not in code:

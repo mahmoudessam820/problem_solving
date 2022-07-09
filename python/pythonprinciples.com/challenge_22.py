@@ -24,17 +24,19 @@
 
 """
 
-# My Solution 
+# My Solution 😊
+
 
 def list_xor(n, list1, list2):
 
     list_one = n in list1
     list_tow = n in list2
-    
+
     if list_one != list_tow:
         return True
 
     if list_one == list_tow:
         return False
+
 
 print(list_xor(5, [5, 5, 5], [4, 4, 4]))
