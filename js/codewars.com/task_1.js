@@ -19,9 +19,10 @@
 
 */
 
+// My solution:
 
 let arr1 = [1, 2, 2, 2, 3];
-let arr2 = [1];
+let arr2 = [2];
 
 function arrayDiff(a, b) {
     let result = []
@@ -32,5 +33,4 @@ function arrayDiff(a, b) {
     }
     return result;
 }
-
 console.log(arrayDiff(arr1, arr2))
